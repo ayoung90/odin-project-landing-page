@@ -70,7 +70,7 @@ body {
 
 button {
     background-color: #3882f6;
-    padding: 8px 20px;
+    padding: 8px 40px;
     border-radius: 8px;
     color: white;
     font-weight: 700;
@@ -142,10 +142,42 @@ button {
 
 .content-signup {
     background-color: white;
+    display: flex;
+    align-content: center;
 }
 
-.footer{
-    display:flex;
+.cta-box {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 40px 150px;
+    gap: 50px;
+    flex: 1;
+    margin: 20px 0px;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.cta h2 {
+    margin: 0;
+}
+
+.cta-box button {
+    border-color: white;
+    border-style: solid;
+    border-width: medium;
+    flex-grow: 0;
+    flex-basis: content;
+}
+
+.footer {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
