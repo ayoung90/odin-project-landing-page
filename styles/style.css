@@ -89,10 +89,43 @@ button {
 
 .content-info {
     background-color: white;
+    text-align: center;
+    align-content: center;
+}
+.content-info h2{
+    padding-bottom: 30px;
+}
+
+
+.content-info .tiles{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.tile-box{
+    display: flex;
+    width: 150px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tiles .image{
+    width: 150px;
+    height: 150px;
+    border-color: #3882f6;
+    border-radius: 8px;
+    border-style: solid;
 }
 
 .content-quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+    width: 400px;
 }
 
 .content-signup {
