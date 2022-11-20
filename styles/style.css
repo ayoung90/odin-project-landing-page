@@ -1,4 +1,59 @@
-/* todo */
-.body{
-    background-color: beige;
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    margin: 0px;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding: 8px 50px;
+    flex: auto;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header,.footer{
+    max-height: 50px;
+    color: #E5E7EB;
+}
+
+.header .links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+
+
+}
+
+.link a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+
+.logo {
+ font-size: 24px;
+ font-weight: 800;
+
+}
+
+.content-info {
+    background-color: white;
+}
+
+.content-quote {
+    background-color: #E5E7EB;
+}
+
+.content-signup {
+    background-color: white;
 }
