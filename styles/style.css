@@ -23,7 +23,7 @@ body {
 
 .header,
 .footer {
-    max-height: 50px;
+    max-height: 60px;
 }
 
 .header .links {
@@ -142,4 +142,10 @@ button {
 
 .content-signup {
     background-color: white;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
