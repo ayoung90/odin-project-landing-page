@@ -54,7 +54,7 @@ body {
     color: #E5E7EB;
     display: flex;
     padding-top: 50px;
-    gap:30px;
+    gap: 30px;
 }
 
 .head-box h2 {
@@ -92,25 +92,26 @@ button {
     text-align: center;
     align-content: center;
 }
-.content-info h2{
+
+.content-info h2 {
     padding-bottom: 30px;
 }
 
 
-.content-info .tiles{
+.content-info .tiles {
     display: flex;
     justify-content: center;
     gap: 50px;
 }
 
-.tile-box{
+.tile-box {
     display: flex;
     width: 150px;
     align-items: center;
     flex-direction: column;
 }
 
-.tiles .image{
+.tiles .image {
     width: 150px;
     height: 150px;
     border-color: #3882f6;
@@ -122,10 +123,21 @@ button {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.quote{
-    width: 400px;
+.quote {
+    width: 800px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.author {
+    text-align: right;
+    font-style: normal;
+    font-size: large;
+    font-weight: bold;
 }
 
 .content-signup {
